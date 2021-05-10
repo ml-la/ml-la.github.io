@@ -13,6 +13,7 @@ header a{
   text-transform: uppercase;
   font-size: 18px;
   font-family: Helvetica, sans-serif;
+  margin-left: -50px;
 }
 header li{
   float: left;
@@ -37,7 +38,6 @@ header a:hover{
   color: #990000;
 /*  font-weight: bold;
 */}
-
 body{
   font: 15px/1.5 Helvetica, Arial, sans-serif;
   padding: 0;
@@ -45,7 +45,7 @@ body{
   background-color: #ffffff;
 }
 .container{
-  width: 80%;
+  width: 95%;
   margin: auto;
   overflow: hidden;
 }
@@ -60,7 +60,7 @@ ul{
   background-size: cover;
 */  text-align: center;
   color: #000000;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 /*.responsive {
   max-width: 50%;
@@ -73,6 +73,11 @@ ul{
 }
 #showcase p{
   font-size: 20px;
+}
+
+#image-map:hover{
+  color: #990000;
+  background-color:#990000; 
 }
 
 .Mcontainer {
@@ -108,7 +113,7 @@ footer{
   text-align: center;
 }
 
-@media(max-width: 768px){
+@media(max-width: 900px){
   header #branding,
   header nav,
   header nav li,
