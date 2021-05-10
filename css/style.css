@@ -1,0 +1,128 @@
+@charset "UTF-8";
+header{
+  background: #C9CEBD;
+  color: #000000;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #000000 4px solid;
+  font-family: Helvetica, sans-serif;
+}
+header a{
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+}
+header li{
+  float: left;
+  display: inline;
+  padding: 0 15px 0 15px;
+}
+header #branding{
+  float: left;
+}
+header #branding h1{
+  margin: 0;
+}
+header nav{
+  float: right;
+  margin-top: 5px;
+}
+header .highlight, header .current a{
+  color: #990000;
+/*  font-weight: bold;
+*/}
+header a:hover{
+  color: #990000;
+/*  font-weight: bold;
+*/}
+
+body{
+  font: 15px/1.5 Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin:0;
+  background-color: #ffffff;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+#showcase {
+  min-height: 400px;
+/*  background:url('../img/headerbg.jpg') no-repeat center;
+  background-size: cover;
+*/  text-align: center;
+  color: #000000;
+  padding-top: 30px;
+}
+/*.responsive {
+  max-width: 50%;
+  height: auto;
+}*/
+#showcase h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+#showcase p{
+  font-size: 20px;
+}
+
+.Mcontainer {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+footer{
+  padding: 10px;
+  margin-top: 10px;
+  color: #ffffff;
+  background-color: #990000;
+  text-align: center;
+}
+
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  header{
+    padding-bottom: 20px;
+  }
+  #showcase h1{
+    margin-top: 40px;
+  }
+}
