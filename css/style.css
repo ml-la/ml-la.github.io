@@ -1,12 +1,35 @@
 @charset "UTF-8";
 header{
-  background: #C9CEBD;
+  background-image: linear-gradient(to bottom, #c9cebd 0%, #ffffff 100%);
+ /* transition: background-image 1s linear;*/
+/*  -moz-transition: background-image 1s linear;  
+  -webkit-transition: background-image 1s linear; 
+  -ms-transition: background-image 1s linear; */
   color: #000000;
   padding-top: 30px;
-  min-height: 70px;
-  border-bottom: #000000 4px solid;
+  min-height: 80px;
+/*  border-bottom: #000000 4px solid;*/
   font-family: Helvetica, sans-serif;
+  z-index: 1
 }
+
+.header::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom, #ffffff 0%, #c9cebd 100%);
+  z-index: -1;
+  transition: opacity 0.5s linear;
+  opacity: 0;
+}
+
+header::before:hover {
+  opacity: 1;
+}
+
 header a{
   color: #000000;
   text-decoration: none;
@@ -14,14 +37,17 @@ header a{
   font-size: 18px;
   font-family: Helvetica, sans-serif;
   margin-left: -50px;
+   z-index: 1
 }
 header li{
   float: left;
   display: inline;
   padding: 0 15px 0 15px;
+  z-index: 1
 }
 header #branding{
   float: left;
+   z-index: 1
 }
 header #branding h1{
   margin: 0;
