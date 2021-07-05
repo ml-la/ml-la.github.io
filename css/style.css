@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 
 header{
   font-family: 'Yanone Kaffeesatz', sans-serif; Helvetica, sans-serif;
@@ -39,12 +40,10 @@ header .highlight, header .current a{
   font-size: 40px !important;
 }
 
-body{
-  /*font: 18px/1.5 Helvetica, Arial, sans-serif;*/
-  font-family: 'Yanone Kaffeesatz', sans-serif; Helvetica, sans-serif;
+h1, h2, h3, h4, h5, p{
+  /*font-family: 'Yanone Kaffeesatz', sans-serif; Helvetica, sans-serif;*/
   padding: 0;
   margin:0;
-  background-color: #ffffff;
 }
 
 .row{
@@ -145,6 +144,11 @@ ul{
 }
 
 .btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler:focus{
   outline: none !important;
   box-shadow: none !important;
 }
