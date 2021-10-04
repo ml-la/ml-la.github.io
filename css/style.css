@@ -60,6 +60,11 @@ h1, h2, h3, h4, h5, p{
   text-decoration: none !important;
 }
 
+.link-dark {
+  color:  #5b5b5b !important;
+  text-decoration: none !important;
+}
+
 a:hover {
   color: #990000;
   text-style: bold;
