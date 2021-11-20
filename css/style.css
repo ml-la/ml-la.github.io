@@ -11,9 +11,17 @@ header{
     background-image: linear-gradient(to bottom, #c9cebd 0%, #ffffff 100%);
 }
 
+.navbar-2custom {
+    background-image: linear-gradient(to bottom, #F7F7FF 0%, #ffffff 100%);
+}
+
 .navbar-custom .navbar-nav .nav-link {
     color: black !important;
 }
+
+.navbar-2custom .navbar-nav .nav-link {
+    color: black !important; 
+} 
 
 .navbar-custom .navbar-brand {
     color: black !important;
@@ -21,6 +29,10 @@ header{
 
 .navbar-custom .nav-item:hover .nav-link {
     color: #990000 !important;
+}
+
+.navbar-2custom .nav-item:hover .nav-link {
+    color: #255F85 !important;
 }
 
 .navbar-custom .nav-item .nav-link.disabled {
@@ -31,8 +43,18 @@ header{
     color: #990000 !important;
 }
 
+.navbar-2custom .nav-item .nav-link.active {
+    color: #255F85 !important;
+}
+
 header .highlight, header .current a{
   color: #990000;
+/*  font-weight: bold;
+*/}
+
+
+header .highlight2, header .current2 a{
+  color: #255F85;
 /*  font-weight: bold;
 */}
 
@@ -142,6 +164,7 @@ ul{
 
 .btn-outline-warning:hover {
   background-color: white !important; 
+  color: #990000 !important;
 }
 
 .btn-outline-warning:visited {
