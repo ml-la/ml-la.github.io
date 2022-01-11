@@ -39,6 +39,10 @@ header{
     color: gray !important;
 }
 
+.navbar-2custom .nav-link.disabled {
+    color: gray !important;
+}
+
 .navbar-custom .nav-item .nav-link.active {
     color: #990000 !important;
 }
@@ -62,11 +66,18 @@ header .highlight2, header .current2 a{
   font-size: 40px !important;
 }
 
+.navbar-2custom .navbar-brand{
+  font-size: 40px !important;
+  color:  black;
+}
+
 h1, h2, h3, h4, h5, p{
   /*font-family: 'Yanone Kaffeesatz', sans-serif; Helvetica, sans-serif;*/
   padding: 0;
   margin:0;
 }
+
+
 
 .row{
   padding-top: 10px;
@@ -97,6 +108,10 @@ h4{
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 25px;
+}
+
+.homepage {
+  font-size: 22px;
 }
 
 
