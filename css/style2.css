@@ -4,7 +4,7 @@
 
 header{
   font-family: 'Noto Sans', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 
@@ -33,6 +33,7 @@ header{
 
 .navbar-custom .navbar-brand {
     color: black !important;
+
 }
 
 .navbar-custom .nav-item:hover .nav-link {
@@ -61,12 +62,14 @@ header{
 
 header .highlight, header .current a{
   color: #990000;
+
 /*  font-weight: bold;
 */}
 
 
 header .highlight2, header .current2 a{
   color: #255F85;
+  font-size:  32px;
 /*  font-weight: bold;
 */}
 
