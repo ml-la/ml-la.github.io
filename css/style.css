@@ -7,6 +7,24 @@ header{
   font-size: 25px;
 }
 
+.cianHarvey {
+    position: relative;
+}
+    
+.cianHarvey:hover:after {
+    position: absolute;
+    content: attr(descrip);
+    display: inline-block;
+    top: 10px;
+    padding: 10px;
+    width: 300px;
+    border-color: rgba(153,0,0, 0.6);;
+    border-style: solid;
+    text-align: justify;
+    background:rgba(255,255,255, 0.9);
+    color: black;
+    border-radius: 15px;
+}
 
 .container-fluid {
     padding-right:0;
@@ -83,6 +101,7 @@ h1, h2, h3, h4, h5, p{
   /*font-family: 'Yanone Kaffeesatz', sans-serif; Helvetica, sans-serif;*/
   padding: 0;
   margin:0;
+  line-height: 1.5;
 }
 
 
