@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, p{
 }
 
 .link-danger {
-  color: #990000 !important;
+  color: #255F85 !important;
   text-decoration: none !important;
 }
 
@@ -119,6 +119,13 @@ h4{
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 25px;
+}
+
+h6{
+  font-family: 'Noto Sans', sans-serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 40px;
 }
 
 /*.homepage {
@@ -206,4 +213,6 @@ ul{
   outline: none !important;
   box-shadow: none !important;
 }
+
+
 
